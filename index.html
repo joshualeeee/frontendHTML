@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <!-- Headings -->
+        <a href="blog.html">Go to blog</a>
+        <hr>
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+        <!-- Paragraphs -->
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur at quo atque quidem distinctio sit minima recusandae nobis, perferendis suscipit ad odit minus magni nesciunt qui voluptas consequuntur earum perspiciatis.
+        </p>
+        <p>
+            <strong>Inline Elements:</strong> 
+            - dont start on a new line
+            - take only the necessary width
+            - span, img, a
+        </p>
+        <p>
+            <em>Block Elements:</em>
+            - start on a new line
+            - take full width available
+            - div, h1 - h6, p, form
+        </p>
+        <p>
+            <a href="http://google.com" target="_blank">this is a link using a</a>
+            - use target blank for new sites and none for going through website
+        </p>
+        <!-- Lists -->
+        <ul>
+            <li>This is a unordered list</li>
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+        </ul>
+        <ol>
+            <li>This is a ordered list</li>
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+        </ol>
+        <!--Table-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joshua Lee</td>
+                    <td>email.com</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>jalsdkfjla Lee</td>
+                    <td>email.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Joshua ajklsdjfa</td>
+                    <td>email.com</td>
+                    <td>22</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br> <!--Line Break-->
+        
+        <hr> <!-- horizontal line-->
+        <!-- Forms -->
+        <p> 
+            HTML can only cover look of form not usability
+        </p>
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="first-name" placeholder="Enter First Name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="last-name"> 
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"> <!-- input type checks for type-->
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Date</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        <br>
+        <!-- Button -->
+        <button>Click Me</button>
+
+        <br>
+        <br>
+
+        <!-- Image -->
+        <img src="sample2.jpg" alt="My Sample Image" width="600">
+
+        <br>
+
+        <!--Quotations-->
+        <blockquote cite="http://sourcewebsite.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eius illo laborum ea et quam totam quaerat. Totam, corporis autem, alias necessitatibus fuga quod animi voluptate fugiat ab, veniam vel.
+        </blockquote>
+
+        <p>
+            What does <abbr title="World Wide Web">WWW</abbr> standfor
+        </p>
+        <p>
+            <cite>HTML crash course</cite>
+        </p>
+        <div style="margin-top:500px"></div> <!-- adds space to bottom -->
+    </body>
+</html>
